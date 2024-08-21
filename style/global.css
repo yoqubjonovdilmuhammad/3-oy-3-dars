@@ -1,0 +1,137 @@
+@import "./fonts.css";
+@import "./variable.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font-family);
+  color: var(--dark-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  max-height: 2041px;
+}
+main {
+  flex-grow: 1;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+.container {
+  max-width: 958px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.header {
+  margin-top: 27px;
+  margin-bottom: 140px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__list {
+  display: flex;
+  gap: 3.3rem;
+}
+.nav__item a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  transition: var(--transition);
+}
+.nav__item a:hover {
+  color: var(--primary-color);
+}
+.nav__item a:link {
+  color: var(--dark-color);
+}
+
+/* HEADER END */
+
+/* WORKS START */
+.work {
+  margin-top: 25px;
+  margin-bottom: 83px;
+}
+
+.work__title {
+  color: var(--dark-color);
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.first__work {
+  display: flex;
+  gap: 1.8rem;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 31px;
+}
+
+.work__right {
+  width: 594px;
+}
+.work__right-title {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+.year {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+  margin-bottom: 17px;
+}
+.year h4 {
+  padding: 5px 8px;
+  background-color: #142850;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+}
+.year h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--light-color);
+}
+
+.icons {
+  margin-left: 313px;
+  margin-bottom: 26px;
+}
+.icons a {
+  margin-right: 35px;
+}
+.footer__container h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--dark-color);
+}
+/* WORKS END */
