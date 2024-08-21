@@ -69,6 +69,18 @@ img {
 .nav__item a:link {
   color: var(--dark-color);
 }
+.nav__bars {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .nav__item {
+    display: none;
+  }
+  .nav__bars {
+    justify-content: flex-end;
+    display: block;
+  }
+}
 
 /* HEADER END */
 

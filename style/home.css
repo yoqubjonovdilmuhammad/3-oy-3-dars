@@ -5,7 +5,6 @@
 }
 .main__container {
   margin-bottom: 71px;
-
   display: flex;
   gap: 106px;
 }
@@ -32,6 +31,19 @@
   background-color: #fff;
   color: var(--primary-color);
 }
+.res {
+  display: none;
+}
+
+@media screen and (max-width=375px) {
+  .main__container {
+    display: block;
+  }
+}
+.res {
+  display: block;
+}
+
 /* MAIN END */
 
 /* POSTS START */
